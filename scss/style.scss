@@ -1,0 +1,29 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+
+
+$light: rgba(82, 115, 96, 0.841);
+$primary: rgba(150, 237, 188, 0.851);
+
+
+$theme-colors: (
+    "light": $light,
+    "primary": $primary
+
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+
+
+
+
+
+
+// Then add additional custom code here
